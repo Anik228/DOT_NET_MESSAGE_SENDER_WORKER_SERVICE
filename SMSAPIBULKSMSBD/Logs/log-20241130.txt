@@ -1,0 +1,21 @@
+2024-11-30 20:25:54.353 +06:00 [INF] Starting the application...
+2024-11-30 20:25:55.018 +06:00 [WRN] No store type was specified for the decimal property 'Id' on entity type 'Outbox_API_ADN_TEST'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-11-30 20:25:55.022 +06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Outbox_API_ADN_TEST'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2024-11-30 20:25:55.026 +06:00 [WRN] No store type was specified for the decimal property 'InboxId' on entity type 'Outbox_API_ADN_TEST'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-11-30 20:25:55.176 +06:00 [INF] Entity Framework Core 6.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-11-30 20:25:55.509 +06:00 [INF] Now listening on: http://localhost:5000
+2024-11-30 20:25:55.514 +06:00 [INF] Application started. Hosting environment: Production; Content root path: C:\Users\user\OneDrive\Desktop\BULK_SMS_API\
+2024-11-30 20:25:55.747 +06:00 [INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT * FROM vas_robi.dbo.Outbox_API_ADN_TEST WHERE Status=0 ORDER BY Priority ASC
+2024-11-30 20:26:05.813 +06:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT * FROM vas_robi.dbo.Outbox_API_ADN_TEST WHERE Status=0 ORDER BY Priority ASC
+2024-11-30 20:26:15.834 +06:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT * FROM vas_robi.dbo.Outbox_API_ADN_TEST WHERE Status=0 ORDER BY Priority ASC
+2024-11-30 20:26:25.849 +06:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT * FROM vas_robi.dbo.Outbox_API_ADN_TEST WHERE Status=0 ORDER BY Priority ASC
+2024-11-30 20:26:35.870 +06:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT * FROM vas_robi.dbo.Outbox_API_ADN_TEST WHERE Status=0 ORDER BY Priority ASC
+2024-11-30 20:26:45.886 +06:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT * FROM vas_robi.dbo.Outbox_API_ADN_TEST WHERE Status=0 ORDER BY Priority ASC
+2024-11-30 20:26:53.477 +06:00 [INF] Application is shutting down...
+2024-11-30 20:26:53.484 +06:00 [ERR] Unexpected error: A task was canceled.
