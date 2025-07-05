@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer("Server=192.168.7.50;Database=vas_robi;User Id=vasuser;Password=vaspwd;")
+    options.UseSqlServer("Server=***;Database=***;User Id=**;Password=***;")
 );
 
 builder.Services.AddHostedService<Worker>();
